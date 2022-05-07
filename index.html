@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<title>crud application</title>
+
+		<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body>
+        <h2 class="bg-primary text-white  text-center p-5">CRUD Application</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                   <form action="/" id="stdinfoform">
+                     <div class="form-group">
+                       <label for="fname"><strong>first Name</strong></label>
+                       <input type="text" name="" id="fname" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname"><strong>last Name</strong></label>
+                        <input type="text" name="" id="lname" class="form-control" required>
+                     </div>
+                     <div class="form-group">
+                        <label for="email"><strong>email</strong></label>
+                        <input type="text" name="" id="email" class="form-control" required>
+                     </div> 
+                     <div class="form-group">
+                        <label for="contact"><strong>contact</strong></label>
+                        <input type="text" name="" id="contact" class="form-control"required>
+                     </div>
+                     <div class="form-group">
+                        <!-- <label for="button">submit</label> -->
+                        <input type="submit" value="submit" class="btn btn-success" id="submitbtn">
+                        <input type="submit" value="update" class="btn btn-success d-none" id="updatebtn">
+                        
+                     </div>                   
+                   </form>
+                         
+                    </div>
+                <!-- </div> -->
+                <div class="col-md-8">
+                   <table class=" table table-bordered">
+                      <thead>
+                         <th>sr no</th>
+                         <th>firstname</th>
+                         <th>lastname</th>
+                         <th>email</th>
+                         <th>contact</th>
+                         <th>delete</th>
+                         <th>edit</th>
+                      </thead>
+                      <tbody id="stdinfo">
+                         
+                      </tbody>
+                   </table>
+                </div>
+            </div>
+        </div>
+	<script src= "./assets/js/app.js"></script>
+	</body>
+</html>

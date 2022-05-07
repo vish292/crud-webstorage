@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.all div{
+    height:250px;
+}
+.orange{
+    background-color: orange;
+}
+.yellowgreen{
+    background-color: yellowgreen;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.hotpink{
+    background-color: hotpink;
+}
+.black{
+    background-color: black;
+}
+.skyblue{
+    background-color: skyblue;
+}
+.blue{
+    background-color: blue;
+}
+.indigo{
+    background-color: indigo;
+}
+.purple{
+    background-color: purple;
+}
